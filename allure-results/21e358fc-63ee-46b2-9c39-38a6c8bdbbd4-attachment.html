@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Aerodynamic Wool Table&quot;,
+    &quot;type&quot;: &quot;Garden, Music &amp; Toys&quot;,
+    &quot;price&quot;: 0.0,
+    &quot;description&quot;: &quot;Impedit tempore quos id consectetur.&quot;,
+    &quot;manufacturer&quot;: &quot;Murazik, Ankunding and Toy&quot;,
+    &quot;upc&quot;: &quot;553833215653&quot;,
+    &quot;model&quot;: &quot;Model-Rustic-Leather-Bott&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Aerodynamic Wool Table&quot;,
+    &quot;type&quot;: &quot;Garden, Music &amp; Toys&quot;,
+    &quot;price&quot;: 0.0,
+    &quot;description&quot;: &quot;Impedit tempore quos id consectetur.&quot;,
+    &quot;manufacturer&quot;: &quot;Murazik, Ankunding and Toy&quot;,
+    &quot;upc&quot;: &quot;553833215653&quot;,
+    &quot;model&quot;: &quot;Model-Rustic-Leather-Bott&quot;
+}&#39;
+    </div>
+

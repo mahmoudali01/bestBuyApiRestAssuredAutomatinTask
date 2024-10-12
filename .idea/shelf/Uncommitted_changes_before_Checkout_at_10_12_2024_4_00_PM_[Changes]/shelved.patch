@@ -1,0 +1,186 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e941a45d-426e-479e-beed-5c0483d46102\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/aws.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/TestNG.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/api/endpoints/ProductEndPoints.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/api/payload/CategoriesPayload.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/api/payload/ProductsPayload.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/api/test/ProductTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/api/utils/fakerDataGenerator/ProductsFakerDataGenerator.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2nINTZaOTPhN4sqJWPj8ZDhQCiz\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask\",\r\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"TestNG.ProductTests.listAllProducts\">\r\n    <configuration name=\"C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask/TestNG.xml\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"bestBuyApiPlaygroudRestAssuredAutomationTask\" />\r\n      <option name=\"SUITE_NAME\" value=\"$PROJECT_DIR$/TestNG.xml\" />\r\n      <option name=\"TEST_OBJECT\" value=\"SUITE\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductTests\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"bestBuyApiPlaygroudRestAssuredAutomationTask\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"api.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"api.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"api.test.ProductTests\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductTests.createProductWithInvalidDataTypes\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"bestBuyApiPlaygroudRestAssuredAutomationTask\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"api.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"api.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"api.test.ProductTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"createProductWithInvalidDataTypes\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductTests.listAllProducts\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"bestBuyApiPlaygroudRestAssuredAutomationTask\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"api.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"api.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"api.test.ProductTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"listAllProducts\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.ProductTests.listAllProducts\" />\r\n        <item itemvalue=\"TestNG.ProductTests\" />\r\n        <item itemvalue=\"TestNG.ProductTests.createProductWithInvalidDataTypes\" />\r\n        <item itemvalue=\"TestNG.C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask/TestNG.xml\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e941a45d-426e-479e-beed-5c0483d46102\" name=\"Changes\" comment=\"\" />\r\n      <created>1728656643576</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1728656643576</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/api/test/ProductTests.java</url>\r\n          <line>192</line>\r\n          <properties class=\"api.test.ProductTests\" method=\"createProductWithInvalidDataTypes\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,21 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e941a45d-426e-479e-beed-5c0483d46102" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/ProductEndPoints.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/Routes.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/CategoriesPayload.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/api/payload/ProductsPayload.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/ProductTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/api/utils/fakerDataGenerator/ProductsFakerDataGenerator.java" afterDir="false" />
++    <list default="true" id="e941a45d-426e-479e-beed-5c0483d46102" name="Changes" comment="product test finalized">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,6 +21,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -51,15 +44,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "last_opened_file_path": "C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask",
+-    "settings.editor.selected.configurable": "preferences.lookFeel"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager" selected="TestNG.ProductTests.listAllProducts">
+     <configuration name="C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="bestBuyApiPlaygroudRestAssuredAutomationTask" />
+@@ -127,9 +120,10 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="TestNG.ProductTests.listAllProducts" />
+-        <item itemvalue="TestNG.ProductTests" />
+         <item itemvalue="TestNG.ProductTests.createProductWithInvalidDataTypes" />
++        <item itemvalue="TestNG.ProductTests" />
+         <item itemvalue="TestNG.C:/Users/mahmo/IdeaProjects/bestBuyApiPlaygroudRestAssuredAutomationTask/TestNG.xml" />
++        <item itemvalue="TestNG.ProductTests.listAllProducts" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -142,6 +136,14 @@
+       <option name="presentableId" value="Default" />
+       <updated>1728656643576</updated>
+     </task>
++    <task id="LOCAL-00001" summary="product test finalized">
++      <created>1728739120370</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1728739120370</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -154,6 +156,10 @@
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="product test finalized" />
++    <option name="LAST_COMMIT_MESSAGE" value="product test finalized" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	
++++ b/README.md	
+@@ -1,0 +1,71 @@
++# bestBuyApiPlayGroundRestAssuredAutomatinTask
++
++This repository contains automation tests for the Best Buy API Playground. The tests are implemented using Java with TestNG for testing framework and are designed to verify the API functionality, including product creation, listing, updating, deletion, and retrieval by ID.
++
++## Requirements
++
++To get started with this project, you will need:
++
++- **Node.js**: Make sure you have Node.js installed on your machine.
++- **Allure Commandline**: To view test results in a formatted report.
++
++## Getting Started
++
++Follow these steps to set up the project on your local machine:
++
++1. **Clone the Best Buy API Repository**:
++   ```bash
++   git clone https://github.com/BestBuy/api-playground.git
++3. Navigate to the API Playground Directory:
++   ```bash
++   cd api-playground
++5. Install Dependencies:
++   ```bash
++   npm install
++6. Start the API Server on  http://localhost:3030:
++    ```bash
++   npm start
++8. Run the TestNG XML File in the project root to run ProductTest class
++
++## Project Structure
++The project is structured as follows:
++   ```bash
++    bestBuyApiPlaygroudRestAssuredAutomationTask/
++    ├── src/
++    │   ├── test/
++    │   │   └── java/
++    │   │       ├── endpoints/        # Contains methods for creating, listing, updating, deleting, and retrieving products by ID.
++    │   │       ├── routes/           # Contains the base URL and API paths.
++    │   │       ├── payload/          # Contains Product and Category classes with attributes and their getters/setters.
++    │   │       ├── test/             # Contains ProductTest class with all test methods.
++    │   │       └── utils/            # Contains utility classes.
++    │   │       └── faker/            # Contains ProductRandomDataGenerator for generating random product data.
++    └── allure-results/                # Contains the results of the test execution.
++```
++## Breakdown
++
++### Endpoints Package
++- **Products**: Methods for creating, listing, updating, deleting, and getting products by ID.
++
++### Routes Class
++- Contains the base URL: `http://localhost:3030`
++- API paths for products and products by ID.
++
++### Payload Package
++- **Products**: Class with all product attributes and their getter/setter methods.
++- **Categories**: Class with all category attributes and their getter/setter methods.
++
++### Test Package
++- **ProductTest**: Class with all test methods to validate API functionality.
++
++### Utils Package
++- Contains utility methods to support testing operations.
++
++### Faker Package
++- Contains **ProductRandomDataGenerator**: Class with methods to generate random product data for testing.
++
++### Allure Reports
++After running the tests, the test results are saved in the `allure-results` directory at the project root. To view the test results, run the following command from the terminal:
++
++```bash
++allure serve

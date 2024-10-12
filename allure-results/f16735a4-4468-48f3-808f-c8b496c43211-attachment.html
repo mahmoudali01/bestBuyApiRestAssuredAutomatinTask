@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Incredible Bronze Table&quot;,
+    &quot;type&quot;: &quot;Baby, Health &amp; Kids&quot;,
+    &quot;price&quot;: 307.36,
+    &quot;description&quot;: &quot;Perspiciatis quod in porro. Vero aut voluptatem est illum voluptatem. Fuga odio natus aspernatur itaque. Quia rerum sit aliquid beatae dolore alias. Laudantium voluptatem incidunt ea ut dicta exercitationem et.&quot;,
+    &quot;manufacturer&quot;: &quot;Buckridge-Reynolds&quot;,
+    &quot;upc&quot;: &quot;996129864701&quot;,
+    &quot;model&quot;: &quot;Model-Rustic-Rubber-Bottl&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Incredible Bronze Table&quot;,
+    &quot;type&quot;: &quot;Baby, Health &amp; Kids&quot;,
+    &quot;price&quot;: 307.36,
+    &quot;description&quot;: &quot;Perspiciatis quod in porro. Vero aut voluptatem est illum voluptatem. Fuga odio natus aspernatur itaque. Quia rerum sit aliquid beatae dolore alias. Laudantium voluptatem incidunt ea ut dicta exercitationem et.&quot;,
+    &quot;manufacturer&quot;: &quot;Buckridge-Reynolds&quot;,
+    &quot;upc&quot;: &quot;996129864701&quot;,
+    &quot;model&quot;: &quot;Model-Rustic-Rubber-Bottl&quot;
+}&#39;
+    </div>
+

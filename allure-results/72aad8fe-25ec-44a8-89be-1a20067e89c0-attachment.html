@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Aerodynamic Wooden Table&quot;,
+    &quot;type&quot;: &quot;Home &amp; Toys&quot;,
+    &quot;price&quot;: 560.97,
+    &quot;description&quot;: &quot;Eum et occaecati quod.&quot;,
+    &quot;manufacturer&quot;: &quot;Lueilwitz, Breitenberg and Aufderhar&quot;,
+    &quot;upc&quot;: &quot;459753520115&quot;,
+    &quot;model&quot;: &quot;Model-shhnasghsywk1iz4p2ptftqc96&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Aerodynamic Wooden Table&quot;,
+    &quot;type&quot;: &quot;Home &amp; Toys&quot;,
+    &quot;price&quot;: 560.97,
+    &quot;description&quot;: &quot;Eum et occaecati quod.&quot;,
+    &quot;manufacturer&quot;: &quot;Lueilwitz, Breitenberg and Aufderhar&quot;,
+    &quot;upc&quot;: &quot;459753520115&quot;,
+    &quot;model&quot;: &quot;Model-shhnasghsywk1iz4p2ptftqc96&quot;
+}&#39;
+    </div>
+

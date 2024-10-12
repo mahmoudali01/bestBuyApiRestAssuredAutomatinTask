@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;fiaxr4g5swnjr06agj73m39by5gn67j0csqbt1ig8kvn4kl4d4qk7lre406w15hfpd6hz0i49njpe6mwsyrsuzqrqpmb3a743hc6w&quot;,
+    &quot;type&quot;: &quot;Beauty, Grocery &amp; Home&quot;,
+    &quot;price&quot;: 964.65,
+    &quot;description&quot;: &quot;Repellat omnis voluptatum numquam reiciendis tempore numquam.&quot;,
+    &quot;manufacturer&quot;: &quot;Blick-Blick&quot;,
+    &quot;upc&quot;: &quot;737859484224&quot;,
+    &quot;model&quot;: &quot;Model-Incredible-Plastic-&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;fiaxr4g5swnjr06agj73m39by5gn67j0csqbt1ig8kvn4kl4d4qk7lre406w15hfpd6hz0i49njpe6mwsyrsuzqrqpmb3a743hc6w&quot;,
+    &quot;type&quot;: &quot;Beauty, Grocery &amp; Home&quot;,
+    &quot;price&quot;: 964.65,
+    &quot;description&quot;: &quot;Repellat omnis voluptatum numquam reiciendis tempore numquam.&quot;,
+    &quot;manufacturer&quot;: &quot;Blick-Blick&quot;,
+    &quot;upc&quot;: &quot;737859484224&quot;,
+    &quot;model&quot;: &quot;Model-Incredible-Plastic-&quot;
+}&#39;
+    </div>
+

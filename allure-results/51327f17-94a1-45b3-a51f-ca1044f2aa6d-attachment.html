@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Fantastic Leather Coat&quot;,
+    &quot;type&quot;: &quot;Health&quot;,
+    &quot;price&quot;: 0.0,
+    &quot;description&quot;: &quot;Rerum dolorem adipisci.&quot;,
+    &quot;manufacturer&quot;: &quot;Botsford LLC&quot;,
+    &quot;upc&quot;: &quot;424193167032&quot;,
+    &quot;model&quot;: &quot;Model-Fantastic-Linen-Bot&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Fantastic Leather Coat&quot;,
+    &quot;type&quot;: &quot;Health&quot;,
+    &quot;price&quot;: 0.0,
+    &quot;description&quot;: &quot;Rerum dolorem adipisci.&quot;,
+    &quot;manufacturer&quot;: &quot;Botsford LLC&quot;,
+    &quot;upc&quot;: &quot;424193167032&quot;,
+    &quot;model&quot;: &quot;Model-Fantastic-Linen-Bot&quot;
+}&#39;
+    </div>
+

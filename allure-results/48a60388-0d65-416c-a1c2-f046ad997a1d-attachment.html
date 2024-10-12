@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Enormous Leather Car&quot;,
+    &quot;type&quot;: &quot;7a0g44k9163glo3ov8sviortygc5y0a&quot;,
+    &quot;price&quot;: 834.64,
+    &quot;description&quot;: &quot;Alias aspernatur delectus.&quot;,
+    &quot;manufacturer&quot;: &quot;Jacobi, Ryan and Bernier&quot;,
+    &quot;upc&quot;: &quot;642616450539&quot;,
+    &quot;model&quot;: &quot;Model-Intelligent-Linen-H&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Enormous Leather Car&quot;,
+    &quot;type&quot;: &quot;7a0g44k9163glo3ov8sviortygc5y0a&quot;,
+    &quot;price&quot;: 834.64,
+    &quot;description&quot;: &quot;Alias aspernatur delectus.&quot;,
+    &quot;manufacturer&quot;: &quot;Jacobi, Ryan and Bernier&quot;,
+    &quot;upc&quot;: &quot;642616450539&quot;,
+    &quot;model&quot;: &quot;Model-Intelligent-Linen-H&quot;
+}&#39;
+    </div>
+

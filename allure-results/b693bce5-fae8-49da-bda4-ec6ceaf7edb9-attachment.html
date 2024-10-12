@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Mediocre Wooden Coat&quot;,
+    &quot;type&quot;: &quot;Electronics, Garden &amp; Tools&quot;,
+    &quot;price&quot;: 955.11,
+    &quot;description&quot;: &quot;Quae repellendus exercitationem ut.&quot;,
+    &quot;manufacturer&quot;: &quot;Sipes, McDermott and Bogisich&quot;,
+    &quot;upc&quot;: &quot;296127735375&quot;,
+    &quot;model&quot;: &quot;Model-xsxb8xmxh8ypx3vpj3jii6rnem&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Mediocre Wooden Coat&quot;,
+    &quot;type&quot;: &quot;Electronics, Garden &amp; Tools&quot;,
+    &quot;price&quot;: 955.11,
+    &quot;description&quot;: &quot;Quae repellendus exercitationem ut.&quot;,
+    &quot;manufacturer&quot;: &quot;Sipes, McDermott and Bogisich&quot;,
+    &quot;upc&quot;: &quot;296127735375&quot;,
+    &quot;model&quot;: &quot;Model-xsxb8xmxh8ypx3vpj3jii6rnem&quot;
+}&#39;
+    </div>
+

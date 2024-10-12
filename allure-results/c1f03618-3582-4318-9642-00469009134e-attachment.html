@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Gorgeous Plastic Chair&quot;,
+    &quot;type&quot;: &quot;Baby &amp; Clothing&quot;,
+    &quot;price&quot;: 537.91,
+    &quot;description&quot;: &quot;Repudiandae sed eligendi quae. Vero omnis mollitia quia aut. Ullam nisi vero recusandae. Adipisci et autem iusto similique laudantium.&quot;,
+    &quot;manufacturer&quot;: &quot;Kulas-Nicolas&quot;,
+    &quot;upc&quot;: &quot;314935515531&quot;,
+    &quot;model&quot;: &quot;Model-Gorgeous-Paper-Chai&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Gorgeous Plastic Chair&quot;,
+    &quot;type&quot;: &quot;Baby &amp; Clothing&quot;,
+    &quot;price&quot;: 537.91,
+    &quot;description&quot;: &quot;Repudiandae sed eligendi quae. Vero omnis mollitia quia aut. Ullam nisi vero recusandae. Adipisci et autem iusto similique laudantium.&quot;,
+    &quot;manufacturer&quot;: &quot;Kulas-Nicolas&quot;,
+    &quot;upc&quot;: &quot;314935515531&quot;,
+    &quot;model&quot;: &quot;Model-Gorgeous-Paper-Chai&quot;
+}&#39;
+    </div>
+

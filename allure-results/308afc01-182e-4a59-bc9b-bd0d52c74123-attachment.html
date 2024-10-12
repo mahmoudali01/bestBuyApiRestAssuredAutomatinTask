@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;kybz1vy8923uc2o6n63n9jxpyilkkyt8f1577765y9hljbpofv3xaeyg6qs9xk5m19qhtndsikjdvhiyfqqbqw4zbl7yhwf40wf4v&quot;,
+    &quot;type&quot;: &quot;Games &amp; Jewelry&quot;,
+    &quot;price&quot;: 844.4,
+    &quot;description&quot;: &quot;Velit aliquam excepturi neque.&quot;,
+    &quot;manufacturer&quot;: &quot;Bernier-Boyle&quot;,
+    &quot;upc&quot;: &quot;695708127231&quot;,
+    &quot;model&quot;: &quot;Model-Enormous-Paper-Plat&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;kybz1vy8923uc2o6n63n9jxpyilkkyt8f1577765y9hljbpofv3xaeyg6qs9xk5m19qhtndsikjdvhiyfqqbqw4zbl7yhwf40wf4v&quot;,
+    &quot;type&quot;: &quot;Games &amp; Jewelry&quot;,
+    &quot;price&quot;: 844.4,
+    &quot;description&quot;: &quot;Velit aliquam excepturi neque.&quot;,
+    &quot;manufacturer&quot;: &quot;Bernier-Boyle&quot;,
+    &quot;upc&quot;: &quot;695708127231&quot;,
+    &quot;model&quot;: &quot;Model-Enormous-Paper-Plat&quot;
+}&#39;
+    </div>
+

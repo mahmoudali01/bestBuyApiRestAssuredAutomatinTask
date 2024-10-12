@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Enormous Silk Clock&quot;,
+    &quot;type&quot;: &quot;Baby, Clothing &amp; Shoes&quot;,
+    &quot;price&quot;: 0.0,
+    &quot;description&quot;: &quot;Beatae deserunt nulla at inventore occaecati consequatur odit.&quot;,
+    &quot;manufacturer&quot;: &quot;Lakin, Ruecker and O&#39;Keefe&quot;,
+    &quot;upc&quot;: &quot;316781401767&quot;,
+    &quot;model&quot;: &quot;Model-Awesome-Paper-Watch&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Enormous Silk Clock&quot;,
+    &quot;type&quot;: &quot;Baby, Clothing &amp; Shoes&quot;,
+    &quot;price&quot;: 0.0,
+    &quot;description&quot;: &quot;Beatae deserunt nulla at inventore occaecati consequatur odit.&quot;,
+    &quot;manufacturer&quot;: &quot;Lakin, Ruecker and O&#39;Keefe&quot;,
+    &quot;upc&quot;: &quot;316781401767&quot;,
+    &quot;model&quot;: &quot;Model-Awesome-Paper-Watch&quot;
+}&#39;
+    </div>
+

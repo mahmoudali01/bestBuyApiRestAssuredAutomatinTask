@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Awesome Rubber Bag&quot;,
+    &quot;type&quot;: &quot;Beauty&quot;,
+    &quot;price&quot;: 792.19,
+    &quot;description&quot;: &quot;Magni autem optio. Debitis dignissimos iusto ratione. Consectetur molestiae nulla aut veniam ad.&quot;,
+    &quot;manufacturer&quot;: &quot;Heaney-Herzog&quot;,
+    &quot;upc&quot;: &quot;622674781667&quot;,
+    &quot;model&quot;: &quot;Model-Mediocre-Bronze-Shi&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Awesome Rubber Bag&quot;,
+    &quot;type&quot;: &quot;Beauty&quot;,
+    &quot;price&quot;: 792.19,
+    &quot;description&quot;: &quot;Magni autem optio. Debitis dignissimos iusto ratione. Consectetur molestiae nulla aut veniam ad.&quot;,
+    &quot;manufacturer&quot;: &quot;Heaney-Herzog&quot;,
+    &quot;upc&quot;: &quot;622674781667&quot;,
+    &quot;model&quot;: &quot;Model-Mediocre-Bronze-Shi&quot;
+}&#39;
+    </div>
+

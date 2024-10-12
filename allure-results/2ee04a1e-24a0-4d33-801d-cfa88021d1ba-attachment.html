@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Fantastic Paper Keyboard&quot;,
+    &quot;type&quot;: &quot;Sports&quot;,
+    &quot;price&quot;: 598.08,
+    &quot;description&quot;: &quot;Qui ipsa eum.&quot;,
+    &quot;manufacturer&quot;: &quot;Koch-Torpr0ueodmpn2qugd3hupcs6ncw34tqgmqug8a3080getvpk2gjvp7&quot;,
+    &quot;upc&quot;: &quot;601226032602&quot;,
+    &quot;model&quot;: &quot;Model-Rustic-Plastic-Cloc&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Fantastic Paper Keyboard&quot;,
+    &quot;type&quot;: &quot;Sports&quot;,
+    &quot;price&quot;: 598.08,
+    &quot;description&quot;: &quot;Qui ipsa eum.&quot;,
+    &quot;manufacturer&quot;: &quot;Koch-Torpr0ueodmpn2qugd3hupcs6ncw34tqgmqug8a3080getvpk2gjvp7&quot;,
+    &quot;upc&quot;: &quot;601226032602&quot;,
+    &quot;model&quot;: &quot;Model-Rustic-Plastic-Cloc&quot;
+}&#39;
+    </div>
+

@@ -1,0 +1,37 @@
+<div>POST to http://localhost:3030/products</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;name&quot;: &quot;Mediocre Rubber Bench&quot;,
+    &quot;type&quot;: &quot;Beauty&quot;,
+    &quot;price&quot;: 1.6,
+    &quot;description&quot;: &quot;Ipsam eligendi quod. Aut illum velit impedit provident. Quaerat voluptas porro recusandae. Velit qui culpa ut ut aut sequi earum. Aliquid ut quia dignissimos nobis recusandae modi qui.&quot;,
+    &quot;manufacturer&quot;: &quot;Stanton-Greenholt&quot;,
+    &quot;upc&quot;: &quot;416874515828&quot;,
+    &quot;model&quot;: &quot;Model-Synergistic-Silk-Ta&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: application/json, application/javascript, text/javascript, text/json</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;http://localhost:3030/products&#39; -H &#39;Accept: application/json, application/javascript, text/javascript, text/json&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;name&quot;: &quot;Mediocre Rubber Bench&quot;,
+    &quot;type&quot;: &quot;Beauty&quot;,
+    &quot;price&quot;: 1.6,
+    &quot;description&quot;: &quot;Ipsam eligendi quod. Aut illum velit impedit provident. Quaerat voluptas porro recusandae. Velit qui culpa ut ut aut sequi earum. Aliquid ut quia dignissimos nobis recusandae modi qui.&quot;,
+    &quot;manufacturer&quot;: &quot;Stanton-Greenholt&quot;,
+    &quot;upc&quot;: &quot;416874515828&quot;,
+    &quot;model&quot;: &quot;Model-Synergistic-Silk-Ta&quot;
+}&#39;
+    </div>
+
