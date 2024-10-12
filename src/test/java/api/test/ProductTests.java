@@ -4,7 +4,6 @@ import api.endpoints.ProductEndPoints;
 import api.payload.ProductsPayload;
 import api.utils.fakerDataGenerator.ProductsFakerDataGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.qameta.allure.Description;
 import io.qameta.allure.Story;
@@ -12,12 +11,8 @@ import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import java.util.List;
-import java.util.Map;
 
 import static org.hamcrest.Matchers.*;
-import static org.testng.Assert.assertTrue;
-import static org.testng.AssertJUnit.assertNotNull;
-
 public class ProductTests {
 
     private int createdProductId;
