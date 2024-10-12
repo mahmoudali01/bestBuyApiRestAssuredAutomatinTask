@@ -7,8 +7,10 @@ This repository contains automation tests for the Best Buy API Playground. The t
 To get started with this project, you will need:
 
 - **Node.js**: Make sure you have Node.js installed on your machine.
-- **Allure Commandline**: To view test results in a formatted report.
-
+- **Allure Commandline**: To view test results in a formatted report
+   ```bash
+   npm install -g allure-commandline
+  
 ## Getting Started
 
 Follow these steps to set up the project on your local machine:
@@ -24,7 +26,7 @@ Follow these steps to set up the project on your local machine:
    npm install
 6. Start the API Server on  http://localhost:3030:
     ```bash
-   npm start
+    npm start
 8. Run the TestNG XML File in the project root to run ProductTest class
 
 ## Project Structure
@@ -36,7 +38,7 @@ The project is structured as follows:
     │   │   └── java/
     │   │       ├── endpoints/        # Contains methods for creating, listing, updating, deleting, and retrieving products by ID.
     │   │       ├── routes/           # Contains the base URL and API paths.
-    │   │       ├── payload/          # Contains Product and Category classes with attributes and their getters/setters.
+    │   │       ├── payload/          # Contains Product class with attributes and their getters/setters.
     │   │       ├── test/             # Contains ProductTest class with all test methods.
     │   │       └── utils/            # Contains utility classes.
     │   │       └── faker/            # Contains ProductRandomDataGenerator for generating random product data.
@@ -53,7 +55,6 @@ The project is structured as follows:
 
 ### Payload Package
 - **Products**: Class with all product attributes and their getter/setter methods.
-- **Categories**: Class with all category attributes and their getter/setter methods.
 
 ### Test Package
 - **ProductTest**: Class with all test methods to validate API functionality.
@@ -68,4 +69,5 @@ The project is structured as follows:
 After running the tests, the test results are saved in the `allure-results` directory at the project root. To view the test results, run the following command from the terminal:
 
 ```bash
+allure generate allure-results --clean -o allure-report
 allure serve
